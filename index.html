@@ -9,7 +9,59 @@
 <body class="body">
     <section class="container">
         <div class="container__img">IMAGEM</div>
-        <div class="container__form">FORM</div>
+        <div class="container__form">
+            <div class="title__btn">
+                <h1 class="container__title">Sing Up</h1>
+                <button class="login">Login</button>
+            </div>
+            <form class="form">
+                <ul class="form__list">
+                    <li class="form__item">
+                        <label for="frist-name">Frist Name</label>
+                        <input type="text" id="frist-name" name="frist-name">
+                    </li>
+                    <li class="form__item">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </li>
+                    <li class="form__item">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </li>
+                    <li class="form__item">
+                        <label for="phone">Cell Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </li>
+                    <li class="form__item">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                    </li>
+                    <li class="form__item">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password">
+                    </li>
+                </ul>
+                <ul class="gender__list">
+                    <li class="gender__item">
+                        <label for="fem">Feminine</label>
+                        <input type="radio" id="fem" name="fem">
+                    </li>
+                    <li class="gender__item">
+                        <label for="masc">Masculine</label>
+                        <input type="radio" id="masc" name="masc">
+                    </li>
+                    <li class="gender__item">
+                        <label for="other">Others</label>
+                        <input type="radio" id="other" name="other">
+                    </li>
+                    <li class="gender__item">
+                        <label for="pre-not">Prefer not to say</label>
+                        <input type="radio" id="pre-not" name="pre-not">
+                    </li>
+                </ul>
+                <input type="submit" value="Continue">
+            </form>
+        </div>
     </section>
 </body>
 </html>
