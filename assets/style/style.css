@@ -95,4 +95,13 @@ table {
   display: flex;
   flex-direction: column;
   width: 50%;
+}
+.body .container .container__form .gender__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body .container .container__form .form__submit {
+  display: inline-block;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
