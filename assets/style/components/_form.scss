@@ -21,22 +21,31 @@
         }
         .container__form {
             @extend .container__img;
-            background-color: red;
+            background-color: $bg-form-color;
             .title__btn {
                 display: flex;
                 justify-content: space-between;
                 margin: 20px 30px;
-            }
-            .container__title {
-                font-size: 2rem;
-                &::before {
-                    content: "";
-                    background-color: $primary-font-color;
-                    width: 52px;
-                    height: 6px;
-                    position: absolute;
-                    margin-top: 32px;
-                    border-radius: 5px;
+                .container__title {
+                    font-size: 2rem;
+                    &::before {
+                        content: "";
+                        background-color: $primary-font-color;
+                        width: 52px;
+                        height: 6px;
+                        position: absolute;
+                        margin-top: 32px;
+                        border-radius: 5px;
+                    }
+                }
+                .btn__login {
+                    font-family: $primary-font;
+                    font-weight: 600;
+                    font-size: 1rem;
+                    border: none;
+                    padding: 0 15px;
+                    border-radius: 7px;
+                    background-color: $button-color;
                 }
             }
             .form {

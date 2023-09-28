@@ -80,17 +80,17 @@ table {
   height: 70vh;
 }
 .body .container .container__form {
-  background-color: red;
+  background-color: #C2DED1;
 }
 .body .container .container__form .title__btn {
   display: flex;
   justify-content: space-between;
   margin: 20px 30px;
 }
-.body .container .container__form .container__title {
+.body .container .container__form .title__btn .container__title {
   font-size: 2rem;
 }
-.body .container .container__form .container__title::before {
+.body .container .container__form .title__btn .container__title::before {
   content: "";
   background-color: #354259;
   width: 52px;
@@ -98,6 +98,15 @@ table {
   position: absolute;
   margin-top: 32px;
   border-radius: 5px;
+}
+.body .container .container__form .title__btn .btn__login {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  padding: 0 15px;
+  border-radius: 7px;
+  background-color: #8EACCD;
 }
 .body .container .container__form .form .form__list {
   display: flex;
