@@ -64,6 +64,8 @@ table {
   justify-content: center;
   width: 100vw;
   height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: #354259;
 }
 .body .container {
   display: flex;
@@ -72,36 +74,46 @@ table {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.body .container .container__img {
+.body .container .container__img, .body .container .container__form {
   background-color: aqua;
   width: 40vw;
   height: 70vh;
 }
 .body .container .container__form {
   background-color: red;
-  width: 40vw;
-  height: 70vh;
 }
 .body .container .container__form .title__btn {
   display: flex;
   justify-content: space-between;
   margin: 20px 30px;
 }
-.body .container .container__form .form__list {
+.body .container .container__form .container__title {
+  font-size: 2rem;
+}
+.body .container .container__form .container__title::before {
+  content: "";
+  background-color: #354259;
+  width: 52px;
+  height: 6px;
+  position: absolute;
+  margin-top: 32px;
+  border-radius: 5px;
+}
+.body .container .container__form .form .form__list {
   display: flex;
   flex-wrap: wrap;
 }
-.body .container .container__form .form__list .form__item {
+.body .container .container__form .form .form__list .form__item {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
-.body .container .container__form .gender__list {
+.body .container .container__form .form .gender__list {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.body .container .container__form .form__submit {
+.body .container .container__form .form .form__submit {
   display: inline-block;
   width: 100%;
 }/*# sourceMappingURL=style.css.map */
