@@ -1,5 +1,23 @@
+@import "./variables";
+
 @mixin center {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@mixin button-style {
+    font-family: $primary-font;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    padding: 0 15px;
+    border-radius: 7px;
+    background-color: $button-color;
+    transition: .5s;
+    &:hover {
+        background-color: $button-hover;
+        color: white;
+        transition: .5s;
+    }
 }
