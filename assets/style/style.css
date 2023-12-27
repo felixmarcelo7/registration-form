@@ -72,19 +72,29 @@ table {
   width: 80vw;
   height: 70vh;
   background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 20px;
 }
-.body .container .container__img, .body .container .container__form {
+.body .container .container__img {
   background-color: aqua;
+  border-radius: 20px 0 0 20px;
   width: 40vw;
   height: 70vh;
+  background-image: url("/assets/img/image-form.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 120%;
 }
 .body .container .container__form {
+  width: 40vw;
+  height: 70vh;
+  border-radius: 0px 20px 20px 0px;
   background-color: #C2DED1;
 }
 .body .container .container__form .title__btn {
   display: flex;
   justify-content: space-between;
-  margin: 20px 30px;
+  margin: 40px 30px;
 }
 .body .container .container__form .title__btn .container__title {
   font-size: 2rem;

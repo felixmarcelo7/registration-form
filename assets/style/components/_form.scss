@@ -13,19 +13,27 @@
         width: $continer-size-vw;
         height: 70vh;
         background-color: white;
-        //box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 20px;
         .container__img {
             background-color: aqua;
+            border-radius: 20px 0 0 20px;
             width: $continer-size-vw / 2;
             height: 70vh;
+            background-image: url("/assets/img/image-form.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:120%;
         }
         .container__form {
-            @extend .container__img;
+            width: $continer-size-vw / 2;
+            height: 70vh;
+            border-radius: 0px 20px 20px 0px;
             background-color: $bg-form-color;
             .title__btn {
                 display: flex;
                 justify-content: space-between;
-                margin: 20px 30px;
+                margin: 40px 30px;
                 .container__title {
                     font-size: 2rem;
                     &::before {
