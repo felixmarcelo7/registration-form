@@ -144,12 +144,30 @@ table {
   font-style: italic;
   color: lightgray;
 }
-.body .container .container__form .form .gender__list {
+.body .container .container__form .form .gender {
+  margin: 3rem 0 3rem 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
 }
-.body .container .container__form .form .form__submit {
-  display: inline-block;
-  width: 100%;
+.body .container .container__form .form .gender .gender__list {
+  display: flex;
+  justify-content: space-between;
+}
+.body .container .container__form .form .gender .form__submit {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  padding: 0 15px;
+  border-radius: 7px;
+  background-color: #8EACCD;
+  transition: 0.5s;
+  padding: 0.5em;
+  border-radius: 50px;
+}
+.body .container .container__form .form .gender .form__submit:hover {
+  background-color: #78967b;
+  color: white;
+  transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */
