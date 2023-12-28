@@ -90,11 +90,17 @@ table {
   height: 70vh;
   border-radius: 0px 20px 20px 0px;
   background-color: #C2DED1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3em;
 }
 .body .container .container__form .title__btn {
   display: flex;
   justify-content: space-between;
-  margin: 40px 30px;
+  align-self: normal;
+  margin: 0 30px;
 }
 .body .container .container__form .title__btn .container__title {
   font-size: 2rem;
@@ -124,7 +130,12 @@ table {
   transition: 0.5s;
 }
 .body .container .container__form .form {
-  margin: 50px 30px 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 0 30px;
   font-weight: 500;
 }
 .body .container .container__form .form .form__list {
@@ -155,10 +166,10 @@ table {
   color: lightgray;
 }
 .body .container .container__form .form .gender {
-  margin: 3rem 0 3rem 0;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  width: 100%;
 }
 .body .container .container__form .form .gender .gender__list {
   display: flex;
