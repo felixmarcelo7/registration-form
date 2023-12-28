@@ -141,13 +141,14 @@ table {
 .body .container .container__form .form .form__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 20px 10px;
 }
 .body .container .container__form .form .form__list .form__item {
   display: flex;
   gap: 5px;
   flex-direction: column;
-  width: 49%;
+  flex-grow: 1;
 }
 .body .container .container__form .form .form__list .form__item .input-item {
   font-size: 1rem;
