@@ -192,4 +192,22 @@ table {
   background-color: #78967b;
   color: white;
   transition: 0.5s;
+}
+
+@media (max-width: 1025px) {
+  .body {
+    background-image: url("/assets/img/image-form.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+  }
+  .body .container {
+    width: 60vw;
+  }
+  .body .container .container__img {
+    display: none;
+  }
+  .body .container .container__form {
+    width: 60vw;
+  }
 }/*# sourceMappingURL=style.css.map */
