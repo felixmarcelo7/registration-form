@@ -18,3 +18,39 @@
         }
     }
 }
+
+@media (max-width: 375px) {
+    .body {
+        .container {
+            width: 90vw;
+            height: 95vh;
+            .container__form {
+                width: 90vw;
+                height: 95vh;
+                gap: 1rem;
+                .title__btn {
+                    margin: 0 20px;
+                    padding: 10px 0 0 0;
+                }
+                .form {
+                    width: 80vw;
+                    height: 80vh;
+                    gap: 1.5rem;
+                    .form__list {
+                        gap: 10px;
+                    }
+                    .gender {
+                        gap: 1rem;
+                        .gender__list {
+                            display: grid;
+                            grid-template-columns: 1fr 1.2fr;
+                            row-gap: 7px;
+                            justify-content: space-around;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
