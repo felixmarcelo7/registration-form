@@ -209,5 +209,6 @@ table {
   }
   .body .container .container__form {
     width: 60vw;
+    border-radius: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
